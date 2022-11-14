@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         nav{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      height: 200px;
+      text-align: end;
+      display: flex;
+      background-color: lime;
+      
+    }
+    nav ul{
+      list-style-type: none;
+      justify-content: end;
+    }
+    nav ul li{
+      display: inline-block;
+      align-items: center;
+      padding: 20px;
+      margin-top: 50px;
+      border: solid 1px;
+      background-color: aliceblue;
+      border-radius: 30%;
+      text-transform: capitalize;
+      font-size: 15px;
+      font-weight: bolder;
+    }
+    nav ul li a{
+      text-decoration: none;
+    }
+    nav ul li:hover{
+      background-color: aqua;
+    
+    }
+    /* home */
+    .home{
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.home-text h1{
+	margin: 20px 0;
+	font-size: var(--h1-font);
+	font-weight: bold;
+	line-height: 1.1;
+	letter-spacing: 2px;
+}
+span{
+	color: var(--main-color);
+}
+.home-text h4{
+	color: var(--main-color);
+	font-size: 24px;
+	font-weight: 600;
+}
+.home-text h3{
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 3rem;
+}
+.about{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2rem;
+}
+.about-text h4{
+	margin: 10px 0;
+	color: var(--main-color);
+	font-size: 20px;
+	font-weight: 600;
+}
+.about-text h2{
+	font-size: var(--h2-font);
+}
+.about-text p{
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 30px;
+	margin-bottom: 2rem;
+}
+.about-gri{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 3rem;
+}
+.about-in h5{
+	font-size: 22px;
+	font-weight: 600;
+}
+.about-img img{
+	height: auto;
+	width: 100%;
+	max-width: 460px;
+}
+   
+    </style>
+</head>
+<body style="background-color: rgb(1, 39, 1);">
+    <nav>
+        <div class="logo">
+          <img src="images/logo.jpg" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="galary.html">galary</a></li>
+            <li><a href="f heritage.html">Heritage</a></li>
+            <li><a href="fbooking form.html">Booking</a></li>
+            <li><a href="hotell.html">Restaurant</a></li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0" style="align-items:end ;">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+      </nav>
+    <section class="home" id="home">
+		<div class="home-text" style="background-image:url(images/mount1.jpg) ;" >
+        
+			<h4 style="margin-left:50px; text-align: center;color:orangered; font-size: 30px";>Welcome</h4>
+			<h1 style="text-align: center;color:orangered; font-size: 30px;">The Nairobi City<br>National Parks<span>And Reserves</span></h1>
+			<h3>Great things and memories </h3>
+			
+		</div>
+	</section>
+
+	<!---about--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="images/impala1.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2 style="text-align: center;color:orangered; font-size: 30px;">Nairobi City Kenya</h2>
+			<h4 style="text-align: center;color:orangered; font-size: 30px;">Visit Our Parks And Reserves Today</h4>
+			<p>Welcome Grab your ticket today and tour with us</p>
+			<div class="about-gri">
+				
+
+				<div class="about<section class="home" id="home">
+                    <div class="home-text">
+                        <h4>Key features</h4>
+                        <h1 style="color:tomato ;">
+                        Key features
+                            Wildlife
+
+                            Animals include buffalo, giraffe, lion, leopard, baboon, zebra, wildebeest and cheetah---100 mammal species.
+                            400 migratory and endemic bird species.
+                            Picnic Facilities
+                            For corporate events, bush dinners, weddings, picnics, team building sessions, video and film production
+                            <li>Mokoyiet,</li>
+                                <li> Impala</li>
+                                <li>burning site</li>
+                                <li> King Fisher</li>
+                                <li>historic ivory</li>
+                    </div>
+                </section>
+            
+                <!---about--->
+                <section class="about" id="about">
+                    <div class="about-img">
+                        <img src="images/her6.jpg">
+                    </div>
+            
+                    <div class="about-text">
+                        <h2>About Us</h2>
+                        <p>“The World’s only Wildlife Capital”
+                            A short drive out of Nairobi’s central business district is the Nairobi National Park. Wide open grass plains and backdrop of the city scrapers, scattered acacia bush play host to a wide variety of wildlife including the endangered black rhino, lions, leopards, cheetahs, hyenas, buffaloes, giraffes and diverse birdlife with over 400 species recorded. Visitors can enjoy the park’s picnic sites, three campsites and the walking trails for hikers</p>
+                        <a href="fbooking form.html" class="btn">Grab your ticket now</a>
+                    </div>
+               
+                </div>
+			<a href="f heritage.html" class="btn">Check out for more</a>
+		</div>
+	</section>
+
+</body>
+</html>

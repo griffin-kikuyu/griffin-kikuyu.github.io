@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <style>
+    .container{
+        align-items: center;
+        background-color: lime;
+    }
+    nav{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      height: 200px;
+      text-align: end;
+      display: flex;
+      background-color: lime;
+      
+    }
+    nav ul{
+      list-style-type: none;
+      justify-content: end;
+    }
+    nav ul li{
+      display: inline-block;
+      align-items: center;
+      padding: 20px;
+      margin-top: 50px;
+      border: solid 1px;
+      background-color: aliceblue;
+      border-radius: 30%;
+      text-transform: capitalize;
+      font-size: 15px;
+      font-weight: bolder;
+    }
+    nav ul li a{
+      text-decoration: none;
+    }
+    nav ul li:hover{
+      background-color: aqua;
+    
+    }
+    h1{
+      text-align: center;
+      color: white;
+    }
+    .btn a{
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+ </style>
+</head>
+<h1>Grab your ticket today and tour with us</h1>
+<body style="background-color: rgb(1, 39, 1);">
+    <nav>
+        <div class="logo">
+          <img src="images/logo.jpg" alt="">
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="galary.html">galary</a></li>
+          <li><a href="f heritage.html">Heritage</a></li>
+          <li><a href="fbooking form.html">Booking</a></li>
+          <li><a href="hotell.html">Restaurant</a></li>
+        </ul>
+      </nav>
+ <div class="container">
+    <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputName4">Name</label>
+            <input type="Name" class="form-control" id="inputName4" placeholder="Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputID Number4">ID Number</label>
+            <input type="ID Number" class="form-control" id="inputPassword4" placeholder="ID Number">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="Valid Email Address">Valid Email Address</label>
+          <input type="text" class="form-control" id="inputValid Email Address" placeholder="Valid Email Address">
+        </div>
+        <div class="form-group">
+          <label for="inputPhone number">Phone number</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Phone number">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Select Place</label>
+            <select id="inputState" class="form-control">
+              <option selected>Impala National park</option>
+              <option selected>The Nairobi National Park</option>
+              <option selected>Up Town Game park</option>
+              <option selected>Hells gate</option>
+              <option selected>Oryot Water Falls</option>
+              <option selected>Mount Kenya</option>
+              <option selected>The Nile vew</option>
+              <option selected>The Great Org Lands</option>
+              <option selected>Poa Place </option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Verify to Procede
+            </label>
+          </div>
+        </div>
+        <button type="Procede to payment" class="btn btn-primary" style="margin-left:50% ; background-color:orangered;color: black;"><a href="Pay">Procede to payment</a> </button>
+      </form>
+</div>
+<!-- footer -->
+<div class="row" style="background-color:black ; color:tomato;">
+  <div class="col-sm-6">
+    <div class="card" style="background-color:black ;">
+    <div class="card-body">
+      <h5 class="card-title">Contact Us</h5>
+      <p class="card-text"> phone number :+555798587856</p>
+      <p class="card-text">info@naitravels.com</p>
+    </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card" style="background-color:black ;">
+    <div class="card-body">
+      <h5 class="card-title">follow the link below to check our social media pages</h5>
+      <p class="card-text">Https://naitravels.com</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
